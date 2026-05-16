@@ -10,7 +10,7 @@ Dev-related features include adding and removing different map tiles as well as 
 
 Building the executable requires Godot 4.6. Presets for Windows and Mac exports configured.
 
-See `data/map.json` for an example of the file. When used as an executable, the file is saved in the default [data path[(https://docs.godotengine.org/en/stable/tutorials/io/data_paths.html):
+See `data/map.json` for an example of the file. When used as an executable, the file is saved in the default [data path](https://docs.godotengine.org/en/stable/tutorials/io/data_paths.html):
 
 
 * Windows: `%APPDATA%\Godot\app_userdata\[project_name]`
@@ -21,5 +21,5 @@ Dev Roadmap
 - Export map.json to user-defined location
 
 Credits
-Font: 16bfZX by petrnita (Public Domain) - https://www.pentacom.jp/pentacom/bitfontmaker2/gallery/?id=246
-UI Images by Kenney-nl (CC0 1.0 Universal) - https://kenney.nl/
+Font: 16bfZX by [petrnita](https://www.pentacom.jp/pentacom/bitfontmaker2/gallery/?id=246) (Public Domain)
+UI Images by [Kenney-nl](https://kenney.nl/) (CC0 1.0 Universal)
