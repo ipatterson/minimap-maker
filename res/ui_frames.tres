@@ -1,0 +1,59 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cf41dpv72utpe"]
+
+[ext_resource type="Texture2D" uid="uid://b2ka0ao43wrtu" path="res://img/tilemap_inputs.png" id="1_f410j"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0mf6c"]
+atlas = ExtResource("1_f410j")
+region = Rect2(128, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x60jt"]
+atlas = ExtResource("1_f410j")
+region = Rect2(144, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x8toh"]
+atlas = ExtResource("1_f410j")
+region = Rect2(160, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3dlgs"]
+atlas = ExtResource("1_f410j")
+region = Rect2(192, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vte5o"]
+atlas = ExtResource("1_f410j")
+region = Rect2(208, 32, 16, 16)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 6.0,
+"texture": SubResource("AtlasTexture_0mf6c")
+}, {
+"duration": 3.0,
+"texture": SubResource("AtlasTexture_x60jt")
+}],
+"loop": true,
+"name": &"left_click",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 6.0,
+"texture": SubResource("AtlasTexture_0mf6c")
+}, {
+"duration": 3.0,
+"texture": SubResource("AtlasTexture_x8toh")
+}],
+"loop": true,
+"name": &"right_click",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 2.5,
+"texture": SubResource("AtlasTexture_3dlgs")
+}, {
+"duration": 2.5,
+"texture": SubResource("AtlasTexture_vte5o")
+}],
+"loop": true,
+"name": &"scroll",
+"speed": 5.0
+}]

@@ -1,0 +1,29 @@
+IDE ignores
+.zed/
+
+MacOS ignores
+.DS_Store
+**.dmg
+
+# Godot 4+ specific ignores
+.godot/
+/builds/
+/android/
+.nomedia
+
+# Godot-specific ignores
+.import/
+export.cfg
+export_credentials.cfg
+*.tmp
+
+# Imported translations (automatically generated from CSV files)
+*.translation
+
+# Mono-specific ignores
+.mono/
+data_*/
+mono_crash.*.json
+
+# Assets
+*.aseprite

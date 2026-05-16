@@ -1,0 +1,24 @@
+[gd_resource type="Theme" format=3 uid="uid://dp05iukmchaqb"]
+
+[ext_resource type="FontFile" uid="uid://difbbo7vfh60q" path="res://res/16bfZX.ttf" id="1_4tjjl"]
+[ext_resource type="Texture2D" uid="uid://b2ka0ao43wrtu" path="res://img/tilemap_inputs.png" id="2_5764x"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kllb8"]
+atlas = ExtResource("2_5764x")
+region = Rect2(1, 1, 14, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rfomm"]
+atlas = ExtResource("2_5764x")
+region = Rect2(193, 1, 14, 14)
+
+[resource]
+Button/font_sizes/font_size = 16
+Button/fonts/font = ExtResource("1_4tjjl")
+CheckButton/fonts/font = ExtResource("1_4tjjl")
+CheckButton/icons/checked = SubResource("AtlasTexture_kllb8")
+CheckButton/icons/unchecked = SubResource("AtlasTexture_rfomm")
+Label/font_sizes/font_size = 32
+Label/fonts/font = ExtResource("1_4tjjl")
+PopupMenu/fonts/font = ExtResource("1_4tjjl")
+RichTextLabel/font_sizes/normal_font_size = 16
+RichTextLabel/fonts/normal_font = ExtResource("1_4tjjl")
