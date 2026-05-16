@@ -1,4 +1,5 @@
 IDE ignores
+.obsidian/
 .zed/
 
 MacOS ignores
