@@ -1,4 +1,4 @@
-Minimap Maker
+## Minimap Maker
 
 This proof of concept was created as an experiment to emulate the map navigation from Eitrian Odyssey and similar map-focused, dungeon-exploration games. The WASD and QE keys are used for moving and turning.
 
@@ -17,9 +17,9 @@ See `data/map.json` for an example of the file. When used as an executable, the 
 * macOS: `~/Library/Application Support/Godot/app_userdata/[project_name]`
 * Linux: `~/.local/share/godot/app_userdata/[project_name]`
 
-Dev Roadmap
+### Dev Roadmap
 - Export map.json to user-defined location
 
-Credits
-Font: 16bfZX by [petrnita](https://www.pentacom.jp/pentacom/bitfontmaker2/gallery/?id=246) (Public Domain)
-UI Images by [Kenney-nl](https://kenney.nl/) (CC0 1.0 Universal)
+### Credits
+* Font: 16bfZX by [petrnita](https://www.pentacom.jp/pentacom/bitfontmaker2/gallery/?id=246) (Public Domain)
+* UI Images by [Kenney-nl](https://kenney.nl/) (CC0 1.0 Universal)
