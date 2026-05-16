@@ -6,4 +6,4 @@ This proof of concept was created as an experiment to emulate the map navigation
 
 Dev-related features include adding and removing different map tiles as well as reading and writing to a JSON file.
 
-!(tiles.mov)
+![tiles](tiles.mov)
